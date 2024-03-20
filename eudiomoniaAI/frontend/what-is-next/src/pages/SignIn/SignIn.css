@@ -1,0 +1,82 @@
+/* SignIn.css */
+
+/*Google Font*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Montserrat:wght@400;500&family=Neucha&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.signin-container {
+    font-family: "Roboto", sans-serif;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.954);
+    flex-direction:  column;
+}
+
+
+h2{
+    padding: 20px;
+    
+}
+.signin-form {
+    padding: 40px;
+    background-color: #222121;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(243, 240, 240, 0.2), 0 8px 50px 0 rgba(235, 231, 231, 0.19);
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:#ccc;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.signin-button:hover {
+    background-color: #014224;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Add to SignIn.css */
+.switch-to-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.switch-to-signup a {
+    color: #007bff; /* Example color - adjust as needed */
+    text-decoration: none; /* Optional: removes underline */
+}
+
